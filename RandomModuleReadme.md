@@ -41,12 +41,3 @@ generates:
 
 NOT 10.</p>
 
-<em>"""Assignment -->2
-  100 dice rolls
-  Then count:
-
-how many 1s
-how many 2s
-...
-how many 6s
- """ </em>
