@@ -47,13 +47,13 @@ Generate:
 count each mood"""
 def fake_AI_chatbot_mood_generator():
     
- possible_mode=np.random.choice(
+ possible_mood=np.random.choice(
     ["Happy", "Neutral", "Angry", "Excited"],
     size=20
 )
  moods = ["Happy", "Neutral", "Angry", "Excited"]
 
  for mood in moods:
-    print(f"{mood}: {(possible_mode == mood).sum()}")
+    print(f"{mood}: {(possible_mood == mood).sum()}")
 
 fake_AI_chatbot_mood_generator()
