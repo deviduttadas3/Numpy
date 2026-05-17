@@ -56,15 +56,3 @@ def std_names():
     
 std_names()
 
-print("\n---------- Mini Challange ---------- \n")
-def original_playlist():
-    var=np.array(["Song1","Song2","Song3","Song4","Song5"])
-    print(var)
-    return var
-
-def shuffle_playlist():
-   stored_var=original_playlist()
-   shuffled_var = stored_var.copy()
-   np.random.shuffle(shuffled_var)
-   print(f"Shuffled Playlist: {shuffled_var}")
-shuffle_playlist()
