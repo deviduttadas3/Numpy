@@ -8,6 +8,6 @@
              """
 
 import numpy as np
-arr = np.arange(1,21)
+arr = np.arange(1,20)
 print(arr)
 
